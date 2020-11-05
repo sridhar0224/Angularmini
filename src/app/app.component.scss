@@ -1,0 +1,52 @@
+.footer {
+ 
+    top: 100%;
+    left: 30%;
+    text-align: center;
+}
+.Imagess
+{
+    
+    width: 100px;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+    
+  }
+  .right {
+    right: 0;
+   
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .Home
+  {
+    text-align: center;
+    bottom: 0%;
+
+  }
+  .example-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    min-width: 300px;
+  }
+  
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  }
